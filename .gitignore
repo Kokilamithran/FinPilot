@@ -1,0 +1,26 @@
+# Node
+node_modules/
+frontend/dist/
+
+# Java / Maven
+target/
+finpilot/target/
+!.mvn/wrapper/maven-wrapper.jar
+finpilot/.mvn/wrapper/maven-wrapper.jar
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+~$*
+
+# Local secrets and overrides
+.env
+.env.local
+.env.*.local
+application-local.properties
+
+# Logs
+*.log
